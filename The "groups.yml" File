@@ -1,0 +1,8 @@
+#groups.yml File
+#Here we will put the information about our groups
+
+UK_Routers #This is the group name
+  data:    #Arbitraty option which we can use to create our variables
+    ntp:
+      servers:
+        - 1.1.1.1
