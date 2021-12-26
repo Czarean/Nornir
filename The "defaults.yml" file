@@ -1,0 +1,14 @@
+#defaults.yml
+#Here we can put general information like the Username and Password we will us on each host, or the platform that the device use.
+
+---
+platform: cisco_ios  #
+username: ciscouser
+password: ciscopassword
+data: #arbitraty data
+  snmp_community: secret
+conection_options:
+  netconf:
+    extras:
+      #allow_agent: False
+      hostkey_verify: False
