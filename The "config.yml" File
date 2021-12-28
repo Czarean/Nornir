@@ -1,0 +1,14 @@
+## Nornir 3.1.1 Config File 
+---
+
+inventory:
+    plugin: SimpleInventory
+    options: 
+        host_file: "/Users/cesaranaya/Documents/NornirTest/inventory/hosts.yml"         #Use your own path to wherever you have the hosts.yml file!
+        group_file: "/Users/cesaranaya/Documents/NornirTest/inventory/groups.yml"       #Use your own path to wherever you have the groups.yml file!
+        defaults_file: "/Users/cesaranaya/Documents/NornirTest/inventory/defaults.yml"  #Use your own path to wherever you have the default.yml file!
+    
+runners: 
+    plugin: threaded        # "threaded" run the task to all hosts at the same time, whereas "serial" runs task on one host first, then moves to the next one...
+    options: 
+        num_workers: 200    #Here you put the maximum of hosts that will be polled at the same time! If you have 20 nodes you can use 20+
