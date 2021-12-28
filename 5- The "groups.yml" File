@@ -1,8 +1,22 @@
 #groups.yml File
-#Here we will put the information about our groups
+#Here we will put the information about our groups which we can the use to then Filter the devices that we want to gather information from.
 
-UK_Routers #This is the group name
-  data:    #Arbitraty option which we can use to create our variables
+---
+
+UK_Router            #This is the group name
+  data:               #Arbitraty option which we can use to create any data variable
+    ntp:
+      servers:
+        - 1.1.1.1
+        
+USA_Router            #This is the group name
+  data:               #Arbitraty option which we can use to create any data variable
+    ntp:
+      servers:
+        - 1.1.1.1
+        
+Cisco_Router            #This is the group name
+  data:               #Arbitraty option which we can use to create any data variable
     ntp:
       servers:
         - 1.1.1.1
