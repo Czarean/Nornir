@@ -6,10 +6,10 @@
 R1:                                         # This is the Device/host name
   hostname:                                 # the IP address of the device
   groups:                                   # list of groups that the devices is part of. The group name can be anything.
-    - UK_Routers                            # group name
-    - Cisco_Routers                         # group name
-    - Retail_Routers                        # group name
-    - JunOS_Routers                         # Can be anything
+    - UK_Router                             # group name
+    - Cisco_Router                          # group name
+    - Retail_Router                         # group name
+    - JunOS_Router                          # Can be anything
    Data:                                    # Arbitraty information, which we can use to create our random variables
     tags:                                   # Can be anything
       - c9200                               # Can be anything
@@ -22,9 +22,9 @@ R1:                                         # This is the Device/host name
 UK-LONDON-RTR-01:                                         
   hostname: 192.168.10.1                                 
   groups:                                   
-    - UK_Routers                            
-    - Cisco_Routers                         
-    - Retail_Routers                       
+    - UK_Router                            
+    - Cisco_Router                         
+    - Retail_Router                       
    Data:                                    
     tags:                                   
       - c1100
