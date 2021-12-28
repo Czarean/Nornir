@@ -2,12 +2,14 @@
 #Here is where we put all the information about the hosts that we want to manage or gather data from
 
 
-R1: #This is the Device Name
-  hostname: # the IP address of the device
-  groups:   # list of groups that the devices is part of
-    - UK_Routers      #group name
-    - Cisco_Routers   #group name
-    - Retail_Routers  #group name
-   Data: #Arbitraty information, which we can use to create our random variables
-    tags:
-      - c9200
+R1:                                         # This is the Device Name
+  hostname:                                 # the IP address of the device
+  groups:                                   # list of groups that the devices is part of. The group name can be anything.
+    - UK_Routers                            # group name
+    - Cisco_Routers                         # group name
+    - Retail_Routers                        # group name
+    - JunOS_Routers                         # Can be anything
+   Data:                                    # Arbitraty information, which we can use to create our random variables
+    tags:                                   # Can be anything
+      - c9200                               # Can be anything
+      - special_device                      # Can be anything
