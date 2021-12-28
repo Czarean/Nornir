@@ -3,7 +3,7 @@
 
 ---
 
-R1:                                         # This is the Device Name
+R1:                                         # This is the Device/host name
   hostname:                                 # the IP address of the device
   groups:                                   # list of groups that the devices is part of. The group name can be anything.
     - UK_Routers                            # group name
@@ -14,3 +14,18 @@ R1:                                         # This is the Device Name
     tags:                                   # Can be anything
       - c9200                               # Can be anything
       - special_device                      # Can be anything
+      
+
+
+#Example:
+
+UK-LONDON-RTR-01:                                         
+  hostname: 192.168.10.1                                 
+  groups:                                   
+    - UK_Routers                            
+    - Cisco_Routers                         
+    - Retail_Routers                       
+   Data:                                    
+    tags:                                   
+      - c1100
+      - PoE
