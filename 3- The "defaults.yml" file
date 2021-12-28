@@ -2,13 +2,8 @@
 #Here we can put general information like the Username and Password we will us on each host, or the platform that the device use.
 
 ---
-platform: cisco_ios
-username: ciscouser
-password: ciscopassword
-data: #arbitraty data
+platform: cisco_ios               # This field is critical, it's used by the "netmiko_plugin" to map all supported devices "device_type". This specifies the device structure (Cisco XR, Cisco XE, JunOS..) needed and the type of connection used (SSH, Telnet, Serial)
+username: ciscouser               #username to login into devices
+password: ciscopassword           #pasword to login into devices
+data:                             #arbitraty data
   snmp_community: secret
-conection_options:
-  netconf:
-    extras:
-      #allow_agent: False
-      hostkey_verify: False
