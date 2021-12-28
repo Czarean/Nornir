@@ -2,7 +2,7 @@
 #Here we can put general information like the Username and Password we will us on each host, or the platform that the device use.
 
 ---
-platform: cisco_ios               # This field is critical, it's used by the "netmiko_plugin" to map all supported devices "device_type". This specifies the device structure (Cisco XR, Cisco XE, JunOS..) needed and the type of connection used (SSH, Telnet, Serial)
+platform: cisco_ios               # This field is critical, it's used by the "netmiko_plugin" to map all supported devices "device_type". This specifies the device structure (Cisco XR, Cisco XE, JunOS..) needed and the type of connection used (SSH, Telnet, Serial) To check the Netmiko device_types that you need check this: https://github.com/ktbyers/netmiko/blob/a82ae784f4f1ef75e864ac972c088b8c963f77ff/netmiko/ssh_dispatcher.py#L109
 username: ciscouser               #username to login into devices
 password: ciscopassword           #pasword to login into devices
 data:                             #arbitraty data
