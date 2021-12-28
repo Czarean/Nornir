@@ -1,11 +1,28 @@
 Do I need to purchase anything? What tool/software/program do I need?
--No Money required
--Download Visaul Studio Code to make the coding easier to craete and read, but you can use any program or just the terminal if you want.
--Install Python and required plugins
-  -Install python:
-  -Install pip3:
-  -install nornir:
-  -Install plugins:
+1-No Money required
+2-Download Visaul Studio Code to make the coding easier to craete and read, but you can use any program or just the terminal if you know your way arround.
+3-Install Python and required plugins
+  -Install python3    latest version (I used version 3.8.9)
+  -install nornir:    pip3 install nornir (I used version 3.1.1)
+  -Install plugins:   These are all my installed plugins, however you will only need Netmiko,utils (List of nornir plugins: https://nornir.tech/nornir/plugins/)
+    cesaranaya@MacBook-Pro-8 NornirTest % pip3 freeze | grep nornir
+          nornir==3.1.1
+          nornir-ansible==2021.7.30
+          nornir-cli==1.0.0
+          nornir-f5==0.5.0
+          nornir-http==0.1.1
+          nornir-jinja2==0.2.0
+          nornir-napalm==0.1.2
+          nornir-nautobot==2.2.1
+          nornir-netbox==0.2.1
+          nornir-netconf==0.1.0
+          nornir-netmiko==0.1.2           To install: pip3 install nornir_netmiko
+          nornir-paramiko==0.1.0
+          nornir-pyez==0.0.10
+          nornir-pyxl==1.0.1
+          nornir-routeros==0.2.0
+          nornir-scrapli==2021.7.30
+          nornir-utils==0.1.2             To install: pip3 install nornir_utils
     
   
--Thats all! lol now you just start creating the folder, files and code and that it.
+-Thats all!  now you just start creating the folder, files and code and that's it.
