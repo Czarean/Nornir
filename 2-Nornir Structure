@@ -1,6 +1,10 @@
-This is how the Nornir structure works and how you should save the files: 
+This is how the Nornir structure works and how you should save the files,
+if you fail to save the files in this order, when you run the python script, the code wont be
+able to find the absolute path of the .yml files where we have stored our hosts, groups and passwords.
 
-Directory: NornirTest
+Files Structure:
+
+Directory: AnyName
   | Inventory:
     | defaults.yml
     | groups.yml
@@ -9,8 +13,8 @@ Directory: NornirTest
   | nornirpythonscript.py
   
 
-  To make this clear you need to create a folder, inside the folder you create: config.yml, the python script "nornirpythonscript" and another folder named Inventory.
+  To make this clear you need to create a folder, inside the folder you create: config.yml, the python script "nornirpythonscript.py" and another folder named Inventory.
   Inside the Inventory Folder you create: defaults.yml, groups.yml, hosts.yml files.
   
-  Once you have all the code written just run the code:
+  Once you have all the code written and files created with the data and saved in the correct structure shown above, just run the code:
   1- Go to the terminal and run the python script with the following command: python3 nornirpythonscript.py
