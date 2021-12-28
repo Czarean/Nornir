@@ -2,7 +2,7 @@
 #Here we can put general information like the Username and Password we will us on each host, or the platform that the device use.
 
 ---
-platform: cisco_ios  #
+platform: cisco_ios
 username: ciscouser
 password: ciscopassword
 data: #arbitraty data
