@@ -1,6 +1,7 @@
 #Host File:
 #Here is where we put all the information about the hosts that we want to manage or gather data from
 
+---
 
 R1:                                         # This is the Device Name
   hostname:                                 # the IP address of the device
