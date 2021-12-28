@@ -1,26 +1,21 @@
 Why take this course/tutorial?
-
 So you can automate boaring and time consumming tasks just so you can be more lazy that you already are.
 
 
 Why Nornir?
-
 Shits easy man!
 
 
 Do I need Python before taking this course?
-
 Hell no, just copy the code, modify it to you liking, implement it in your company, get a promotion a raise, get a beer and chill.
 If you want to do more complex stuff, of course python is the basis and is a must... come on man!!!
 
 
-To everyone:
-
+To Everyone:
 I will try to make this tutorials/projects as easy to understand as I can, so you can easily understand the fundamentals behind the code so you can quickly start implementing your own code on your company and hopefully help you in you day to day.
 
 
-pos:
-
+POS:
 If you are wondering why my writing is so shit, english is not my native language!
 If you think I did a good job on explaining and if this was helpful to you, please consider donating:
 
