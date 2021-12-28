@@ -1,0 +1,16 @@
+This is how the Nornir structure works and how you should save the files: 
+
+Directory: NornirTest
+  | Inventory:
+    | defaults.yml
+    | groups.yml
+    | hosts.yml
+  | Config.yml
+  | nornirpythonscript.py
+  
+
+  To make this clear you need to create a folder, inside the folder you create: config.yml, the python script "nornirpythonscript" and another folder named Inventory.
+  Inside the Inventory Folder you create: defaults.yml, groups.yml, hosts.yml files.
+  
+  Once you have all the code written just run the code:
+  1- Go to the terminal and run the python script with the following command: python3 nornirpythonscript.py
